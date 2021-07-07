@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href=/styles.css>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header id="main-header">
+        <h1>HTML Fundamentals</h1>
+            <a href="#basics" class="nav-link">Basics</a>
+            <a href="#headings" class="nav-link">Headings</a>
+            <a href="#paragraphs" class="nav-link">Paragraphs</a>
+            <a href="#formatting" class="nav-link">Formatting</a>
+            <a href="#colors" class="nav-link">Colors</a>
+        </nav>
+        </header>
+
+        <main id="main-doc">
+        <section id="basics" class="main-section">
+            <header><h2>Basics</h2></header>
+            <p>HTML stands for Hyper Text Markup Language and it is an interface used on almost all webpages. This structure can be thought of like writing an essay. You have an essay split into multiple parts: an intro, a thesis statement, a body paragraph, and a conclusion. The required components of HTML come together to make an entire webpage.</p>
+            <p>The most popular structure consists of the type of HTML (Doctype) in the intro, a html that is responsible for the whole page, and a body that cover the main section of the webpage. There are many other sections that can be used to structure the webpage but these are the ones needed for every webpage.</p>
+            <ul><li><code>&lt;!DOCTYPE html></code> - tag that sets the type of html.</li>
+            <li><code>&lt;html></code> - main tag that the whole webpage goes into.</li>
+            <li><code>&lt;body></code> - tag that the main section of webpage goes into.</li>
+            </ul>
+        
+        </section><hr>
+        <section id="headings" class="main-section">
+            <header><h2>Headings</h2></header>
+            <p>Websites have different titles to announce new sections. This is done by having a header with the topic of the section. There are six different types of headers that can be used for HTML webpages.</p>
+            <p>Headings are straight forward with their codes. They start with h1 to include the largest heading and can be any number 1 through 6, 6 being the smallest. The different headings help keep track of the sections of the page because bigger headings mean more important sections and they keep the flow of the webpage.</p>
+            <ul><li><code>&lt;h1>Big Text&lt;/h1></code> - largest heading tag</li>
+            <li><code>&lt;h6><small>small text</small>&lt;/h6></code> - smallest heading tag</li>
+        </section><hr>
+        <section id="paragraphs" class="main-section">
+            <header><h2>Paragraphs</h2></header>
+            <p>An essay can't be an essay without paragraph. Similarly a html webpage cant be an html webpage without the p element or other sections. Paragraphs are a common way of sectioning the different parts of a webpage. They are most commonly found in the body tag.</p>
+            <p>There are other ways to create sections in HTML. Other tags like section, main, header, article, div, and others can represent a specific section in your webpage. This helps web developers organize their webpages by labeling the sections with diferent tags.</p>
+            <ul><li><code>&lt;p></code> - main paragraph tag</li>
+            <li><code>&lt;section></code> - tag to label a section in webpage</li>
+                <li><code>&lt;article></code> - specific tag for articles and references</li>
+            <li><code>&lt;div></code> - common tag for a variety of miscellaneous sections</li>
+            
+            </ul>
+        </section><hr>
+        <section id="formatting" class="main-section">
+            <header><h2>Formatting</h2></header>
+            <p>Webpages tend to have a lot of text in their content so it is important to have the correct formatting for it all. When creating a document, making text bold, in italics, or underlined are important to the meaning and structure. Similiarly, webpages can use the same formatting in its text to get the message across.</p>
+            <p>There are many formatting options for the text, even some that are lesser known. Examples include highlighting text, creating superscripts and subscripts, striking through text, and creating smaller text. There are many others that can be researched.</p>
+            <ul><li><code>&lt;b> or &lt;strong></code> - Bold tag </li>
+            <li><code>&lt;i> or &lt;em></code> - Italics tag</li>
+            <li><code>&lt;ins></code> - Underline tag</li>
+            <li><code>&lt;mark></code> - Highlight tag</li></ul>
+        </section><hr>
+        <section id="colors" class="main-section">
+            <header><h2>Colors</h2></header>
+            <p>To add color to your webpages, the easiest way is to use CSS principals. CSS stands for Cascading Style Sheets and is another coding program that lets you style your elements in html. The most common two ways of adding color into your webpage is by adding a background color or changing the color of your text or element. Instead of having to change the color and styles of different paragraphs and elements in your webpage, CSS allows you to change multiple elements at a time by grouping them in classes.</p>
+            <p>There are a few different ways of listing colors as a value. The easiest way is by writing out the names such as red, blue, or white. You can even write out less popular colors such as dodgerblue or cyan. Another way is by writing the color hex code. These series of numbers and letters allow for 256 color combinations. Another way is entering in the combination of reds, greens, and blues in a color.</p>
+            <ul><li><code>{background-color: ;}</code> - changes the background color</li>
+            <li><code>{color: ;}</code> - changes the text/element color</li>
+            <li><code>{ : #eee555;}</code> - example of a hex code</li>
+            <li><code>{ : red;}</code> - example of a color tag</li>
+            <li><code>{ : rgb(220,40,60);}</code> - example of a rgb code</li>
+        </section>
+        </main>
+    </body>
+</html>
